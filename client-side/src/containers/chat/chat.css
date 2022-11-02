@@ -1,0 +1,65 @@
+#chat-page {
+  height: 100vh;
+}
+
+.css-19izrw4 {
+  position: fixed;
+  top: 12vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+.input-message-area {
+  position: fixed;
+  bottom: 10vh;
+  width: 90vw;
+  max-width: 550px;
+  left: 50vw;
+  transform: translateX(-50%);
+  background-color: lightgray;
+  border-radius: 15px;
+}
+
+#chat-area-wrapper {
+  position: absolute;
+  top: 20vh;
+  width: 90vw;
+  max-width: 550px;
+  left: 50vw;
+  transform: translateX(-50%);
+  height: 65vh;
+  overflow: scroll;
+}
+
+#chat-area .adm-list-body {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#chat-area .adm-list-item {
+  background-color: #a7bcff;
+  border: none;
+  margin: 8px 0;
+  display: flex;
+}
+
+#chat-area .adm-list-item .adm-list-item-content-main {
+  background-color: #f7cdf6;
+  max-width: 50vw;
+  border-radius: 15px;
+  padding: 8px;
+}
+#chat-area .adm-list-item-content {
+  border: none;
+}
+
+#chat-area .adm-list-item.chat-me {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#chat-area .adm-list-item.chat-me .adm-list-item-content-main {
+  background-color: #b3e3dd;
+}

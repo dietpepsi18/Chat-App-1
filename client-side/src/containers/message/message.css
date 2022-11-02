@@ -1,0 +1,20 @@
+#message-area-wrapper {
+  position: absolute;
+  top: 20vh;
+  width: 90vw;
+  max-width: 550px;
+  left: 50vw;
+  transform: translateX(-50%);
+  height: 60vh;
+}
+.message-body .adm-list-body-inner {
+  position: absolute;
+  top: 20vh;
+  width: 90vw;
+  max-width: 550px;
+  left: 50vw;
+  transform: translateX(-50%);
+  height: 65vh;
+  overflow: scroll;
+  background-color: transparent;
+}

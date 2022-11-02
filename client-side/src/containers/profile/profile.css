@@ -1,0 +1,52 @@
+#profile-wrap {
+  width: 60vw;
+  max-width: 450px;
+  font-size: 18px;
+}
+
+#profile-image {
+  position: absolute;
+  top: 15vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#profile-username {
+  position: absolute;
+  top: 22vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#profile-major {
+  position: absolute;
+  top: 26vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#profile-information {
+  position: absolute;
+  top: 32vh;
+  width: 60vw;
+  max-width: 450px;
+  background-color: #7775b4;
+  color: white;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+}
+
+#profile-school {
+  position: absolute;
+  top: 38vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}
+
+#profile-info {
+  position: absolute;
+  top: 42vh;
+  left: 50vw;
+  transform: translateX(-50%);
+}

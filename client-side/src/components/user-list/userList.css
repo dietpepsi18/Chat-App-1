@@ -1,0 +1,14 @@
+#userlist-wrapper {
+  width: 70vw;
+  position: absolute;
+  top: 12vh;
+  left: 50vw;
+  transform: translateX(-50%);
+  height: 70vh;
+  overflow: scroll;
+}
+
+.userlist-outerdiv {
+  font-size: 16px;
+  margin-bottom: 7px;
+}

@@ -1,0 +1,19 @@
+#picturePool {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  row-gap: 20px;
+  border-bottom: 1px solid #5d5b8d;
+  padding-bottom: 20px;
+}
+img:hover {
+  cursor: pointer;
+}
+
+#choose-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #5d5b8d;
+  padding-bottom: 10px;
+}

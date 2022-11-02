@@ -1,0 +1,10 @@
+.adm-tab-bar {
+  position: fixed;
+  bottom: 10vh;
+  width: 90vw;
+  max-width: 950px;
+  left: 50vw;
+  transform: translateX(-50%);
+  background-color: lightgray;
+  border-radius: 15px;
+}

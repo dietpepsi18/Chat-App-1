@@ -1,0 +1,16 @@
+#header {
+  margin-top: -80px;
+  margin-bottom: 50px;
+}
+
+#signup {
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.error-msg {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
